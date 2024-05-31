@@ -1,0 +1,326 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Login the Target Web Application",
+        "description": "",
+        "id": "user-login-target-website-and-buy-a-spiderman-toy;user-login-the-target-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29850540355,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Lanch the Target Application",
+            "match": {
+              "location": "StepDefinition.user_Lanch_the_Target_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11001649440,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the Username in username field",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Username_in_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 670420571,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the Password in password field",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4432311389,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click the Sign button and open to main page",
+            "match": {
+              "location": "StepDefinition.user_click_the_Sign_button_and_open_to_main_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User Search the Toy items and select age",
+        "description": "",
+        "id": "user-login-target-website-and-buy-a-spiderman-toy;user-search-the-toy-items-and-select-age",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11178293446,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Enter the toy name in Search field",
+            "match": {
+              "location": "StepDefinition.user_Enter_the_toy_name_in_Search_field()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12753833197,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks the age button and select age in age list menu and clicks apply button",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_age_button_and_select_age_in_age_list_menu_and_clicks_apply_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8693746378,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Scroll up and down to view the toys item",
+            "match": {
+              "location": "StepDefinition.user_Scroll_up_and_down_to_view_the_toys_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4269545740,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "select one toy name and it\u0027s open to toy details page",
+            "match": {
+              "location": "StepDefinition.select_one_toy_name_and_it_s_open_to_toy_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "User Check the Toy images,Specification Details and add to card",
+        "description": "",
+        "id": "user-login-target-website-and-buy-a-spiderman-toy;user-check-the-toy-images,specification-details-and-add-to-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12745766518,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User scroll down to view first toy image",
+            "match": {
+              "location": "StepDefinition.user_scroll_down_to_view_first_toy_image()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3549736163,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks Details down arrowmark button to view toy details and again clicks to close",
+            "match": {
+              "location": "StepDefinition.user_clicks_Details_down_arrowmark_button_to_view_toy_details_and_again_clicks_to_close()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10512910548,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks to one by one toy Details and Specifications",
+            "match": {
+              "location": "StepDefinition.user_clicks_to_one_by_one_toy_Details_and_Specifications()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11627395068,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Clicks add to card button to add first toy and clicks to continue shop button",
+            "match": {
+              "location": "StepDefinition.user_Clicks_add_to_card_button_to_add_first_toy_and_clicks_to_continue_shop_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "User add another one item to add to card",
+        "description": "",
+        "id": "user-login-target-website-and-buy-a-spiderman-toy;user-add-another-one-item-to-add-to-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13957641035,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User scroll up to search box and enter toy name in search filed",
+            "match": {
+              "location": "StepDefinition.user_scroll_up_to_search_box_and_enter_toy_name_in_search_filed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19441438852,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User scroll down to view toy images",
+            "match": {
+              "location": "StepDefinition.user_scroll_down_to_view_toy_images()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9911928251,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks to one by one toy Details and Specifications",
+            "match": {
+              "location": "StepDefinition.user_clicks_to_one_by_one_toy_Details_and_Specifications()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16618375676,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user Clicks add to card button to add a toy and clicks to continue shop button",
+            "match": {
+              "location": "StepDefinition.user_Clicks_add_to_card_button_to_add_a_toy_and_clicks_to_continue_shop_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "User buying the items to cart page",
+        "description": "",
+        "id": "user-login-target-website-and-buy-a-spiderman-toy;user-buying-the-items-to-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6705134274,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks cart button and navigate to show added item details",
+            "match": {
+              "location": "StepDefinition.user_clicks_cart_button_and_navigate_to_show_added_item_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4217886036,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Scroll page and view and check the added items",
+            "match": {
+              "location": "StepDefinition.user_Scroll_page_and_view_and_check_the_added_items()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4252830974,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks to Order summary down arrowbutton and check total price details",
+            "match": {
+              "location": "StepDefinition.user_clicks_to_Order_summary_down_arrowbutton_and_check_total_price_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4615955250,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks to select email a gift message click on button",
+            "match": {
+              "location": "StepDefinition.user_clicks_to_select_email_a_gift_message_click_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4313856018,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Clicks to promo code Addbox and enter the promo code details",
+            "match": {
+              "location": "StepDefinition.user_Clicks_to_promo_code_Addbox_and_enter_the_promo_code_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4833125242,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks to Check out all button and it\u0027s navigate to checkout page",
+            "match": {
+              "location": "StepDefinition.user_clicks_to_Check_out_all_button_and_it_s_navigate_to_checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Login Target Website and Buy a Spiderman Toy",
+    "description": "",
+    "id": "user-login-target-website-and-buy-a-spiderman-toy",
+    "keyword": "Feature",
+    "uri": "target.feature"
+  }
+]
